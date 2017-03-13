@@ -228,7 +228,7 @@ button{
   margin-top: -8px;
 }
 
-.section_five, .section_seven{
+.section_five, .section_seven, .section_ten{
   margin-top: 100px;
   height: 700px;
   background-image: url("../img/bg2.png");
@@ -324,6 +324,15 @@ button{
   font-size: 16px;
 }
 
+.flex{
+  width: 150px;
+  height: 0px;
+  margin: 0 auto;
+  top: -40px;
+  display: flex;
+  justify-content: space-between;
+  z-index: 99;
+}
 
 .section_seven .container_img{
   width:1170px;
@@ -379,4 +388,53 @@ button{
 
 .section_eight .servise p{
   padding: 0 20px;
+}
+
+.hl_long{
+  display: block;
+  margin:0px auto;
+  height: 1px;
+  width: 1170px;
+  background-color: #ccc;
+
+}
+
+.section_nine{
+  width:1170px;
+  height: 350px;
+  margin:0px auto;
+  margin-top: 100px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.section_nine .content{
+  width: 25%;
+}
+
+.content p:nth-child(1){
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.quote_small{
+  font-family: 'Open Sans', sans-serif;
+  width:1170px;
+  margin:0px auto;
+  color: #fff;
+  text-align: center;
+  display: block;
+  padding: 220px 0px 0px;
+}
+
+.section_ten .quote_small p:nth-child(3){
+  font-weight: 400;
+  font-size: 22px;
+}
+
+.section_ten .quote_small p:nth-child(1){
+  font-weight: 400;
+  font-size: 24px;
+  text-transform: uppercase;
 }

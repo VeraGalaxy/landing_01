@@ -37,3 +37,9 @@ $('.slider').slick({
   autoplay: true,
   dots: true
 });
+
+$( function() {
+    $( "#progressbar" ).progressbar({
+      value: 37
+    });
+  } );
